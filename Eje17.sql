@@ -1,4 +1,4 @@
-drop table autos if exists ; 
+drop table if exists autos ; 
 create table autos( patente char(6), marca varchar(20), modelo char(4), precio float unsigned, primary key(patente) );
 insert into autos (patente,marca,modelo,precio) values('ACD123','Fiat 128','1970',15000);
 insert into autos (patente,marca,modelo,precio) values('ACG234','Renault 11','1990',40000);
