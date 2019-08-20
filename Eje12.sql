@@ -1,4 +1,4 @@
-drop table medicamentos if exists;
+drop table if exists medicamentos;
 create table medicamentos(codigo integer auto_increment,nombre varchar(20),laboratorio varchar(20),precio float,
 cantidad integer,primary key (codigo));
 describe medicamentos;
